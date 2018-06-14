@@ -8,6 +8,7 @@ class Student
     student = {}
     student_hash.each do |key, value|
       student[:key] = value
+    end
   end
 
   def self.create_from_collection(students_array)
