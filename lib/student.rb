@@ -7,7 +7,7 @@ class Student
   def initialize(student_hash)
     student = {}
     student_hash.each do |key, value|
-
+      student[:key] = value
   end
 
   def self.create_from_collection(students_array)
