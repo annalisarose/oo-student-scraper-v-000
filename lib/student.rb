@@ -5,9 +5,9 @@ class Student
   @@all = []
 
   def initialize(student_hash)
-  #  student = {}
+    student = []
     student_hash.each do |key, value|
-      all << {key: value}
+      @@all << {key: value}
     end
   end
 
